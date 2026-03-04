@@ -13,7 +13,7 @@ Includes an interactive slider, contact form, and mobile-friendly design.
 - Vercel (deployment)
 
 ## Screenshot
-![Screenshot](Screenshot Taste Bistro.PNG)
+![Screenshot](screenshot-taste-bistro.PNG)
 
 ## How to Use
 - Open `index.html` in your browser
