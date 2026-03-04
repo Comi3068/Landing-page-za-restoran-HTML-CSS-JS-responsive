@@ -4,7 +4,7 @@ Responsive landing page for a restaurant, built with HTML, CSS, and JavaScript.
 Includes an interactive slider, contact form, and mobile-friendly design.
 
 ## Live Demo
-[View Live Site](landing-page-za-restoran-html-css-j-delta.vercel.app)
+[View Live Site](https://landing-page-za-restoran-html-css-j-delta.vercel.app/)
 
 ## Technologies
 - HTML
