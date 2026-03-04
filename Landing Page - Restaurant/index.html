@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taste Bistro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav>
+<h1 class="logo">Taste Bistro</h1>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#reservation">Reservation</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<div class="overlay"></div>
+<div class="hero-content">
+<h2>Where Flavor Becomes Art</h2>
+<p>Fine dining experience crafted with passion.</p>
+<button onclick="scrollToSection('menu')">Explore Menu</button>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section hidden about">
+<div class="about-container">
+<div class="about-text">
+<h2>About Taste Bistro</h2>
+<p>
+Taste Bistro blends tradition and innovation to create unforgettable dishes.
+Our chefs use only premium ingredients to deliver a refined culinary journey.
+</p>
+</div>
+<div class="about-image">
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop">
+</div>
+</div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="section hidden">
+<h2>Our Signature Menu</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="img-container">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1200&auto=format&fit=crop">
+</div>
+<h3>Steak Deluxe</h3>
+<p>Premium grilled beef with truffle butter.</p>
+</div>
+
+<div class="card">
+<div class="img-container">
+<img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=1200&auto=format&fit=crop">
+</div>
+<h3>Italian Pasta</h3>
+<p>Creamy parmesan sauce with fresh herbs.</p>
+</div>
+
+<div class="card">
+<div class="img-container">
+<img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1200&auto=format&fit=crop">
+</div>
+<h3>Chocolate Lava Cake</h3>
+<p>Molten chocolate center with vanilla ice cream.</p>
+</div>
+
+</div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section hidden">
+<h2>Gallery</h2>
+<div class="gallery-grid">
+<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop">
+</div>
+</section>
+
+<!-- RESERVATION -->
+<section id="reservation" class="section hidden reservation">
+<h2>Book a Table</h2>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<input type="date" required>
+<input type="time" required>
+<button type="submit">Reserve Now</button>
+</form>
+</section>
+
+<footer>
+<div class="footer-container">
+<div>
+<h3>Taste Bistro</h3>
+<p>Luxury dining experience in the heart of the city.</p>
+</div>
+<div>
+<h3>Opening Hours</h3>
+<p>Mon - Sun: 12:00 PM - 11:00 PM</p>
+</div>
+</div>
+<p class="copyright">© 2026 Taste Bistro. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
